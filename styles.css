@@ -32,7 +32,7 @@ a { color: inherit; }
 .nav-links .nav-github { color: var(--bg); background: var(--accent); }
 .nav-links .nav-github:hover { color: var(--bg); border-color: var(--accent); background: #c9ff7d; }
 .hero { min-height: clamp(430px, calc(100svh - 210px), 700px); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: clamp(30px, 5vh, 60px); padding: 52px 0 56px; text-align: center; }
-.hero-intro { display: grid; gap: 15px; justify-items: center; }
+.hero-intro { display: grid; gap: 25px; justify-items: center; }
 .tag { margin: 0; color: var(--text); font-family: 'Space Grotesk', system-ui, sans-serif; font-size: clamp(.78rem, 1.6vw, 1rem); font-weight: 700; letter-spacing: .08em; line-height: 1.2; text-transform: uppercase; }
 .logo-wrap { display: grid; place-items: center; width: min(88vw, 660px); aspect-ratio: 1.7; perspective: 900px; }
 .logo-3d { display: grid; place-items: center; align-content: center; gap: clamp(18px, 3vw, 28px); width: 100%; height: 100%; transform-style: preserve-3d; animation: idle-float 6s ease-in-out infinite; }
